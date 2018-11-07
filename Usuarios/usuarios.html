@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>registrar Usuario</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+	<div class="container">
+		<h1>Registro de Usuarios</h1>
+		
+		<form class="form" method="post" action="registrar.php">
+		<input type="text" id="id" name="cedula" placeholder="Cedula" class="input-48">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" >
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-100" >
+                <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-48">
+                <input type="email" id="email" name="email" placeholder="Email" class="input-48" >
+                <select type="text" id="select" name="select" class="input-48">
+                    <option type="text" value="" disabled selected > CARGO</option>
+                     <option type="text" value="TenicoBase">Tenico Base</option>
+                     <option type="text" value="TenicoBase">Tenico Soporte</option>
+                </select>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" class="input-100" >      
+
+			<button type="submit" id="login-button" onclick="return validar();">Registrar Usuario</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/validar.js"></script>
+
+
+
+
+</body>
+
+</html>

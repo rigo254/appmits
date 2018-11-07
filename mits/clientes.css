@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url(280718-telecomunic-640.jpg);
+    -webkit-box-sizing: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+.contenedos-inputs .form-register .form-titulo{
+
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedos-inputs .form-register .form-titulo span{
+    color: #fff;
+}
+.form-register{
+    background: rgba( 0,0,0,.6);
+    width: 350px;
+    max-width: 400%;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    border-bottom: 3px;
+     }
+p{
+    display: block;
+    color:  #ff851b;
+    font-size: 16px;
+    font-family: Roboto;
+    position: relative;
+}
+.contenedos-inputs input[type="text"]{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto;
+}
+.contenedos-inputs input[type="text"]{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    
+}
+.contenedos-inputs input[type="submit"]{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.contenedos-inputs input[type="submit"]:hover{   
+    background: #f29718;
+    transition: all .5s ease;
+}

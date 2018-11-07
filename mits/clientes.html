@@ -1,0 +1,45 @@
+<html lang="es">
+    <head>
+        <title> Registrar Cliente </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1, maximum-scale=1,minumum-scale=1">
+        <link rel="stylesheet" href="clientes.css">
+         <script src="cliente.js"></script>
+          </head>
+    <body>
+           
+    		           
+
+         
+           
+    <div class="contenedos-inputs">
+        <form action="registar.php" name="form" method="post" class="form-register" >
+          
+            <h2 class="form-titulo">Registrar Cliente</h2>
+          
+                <p>Cedula</p>
+                <input type="text" id="cedula" name="cedula"  class="input-48" >
+                 <p>Email</p>
+                <input type="text" id="email" name="email" class="input-100" >
+                 <p>N° contrato</p>
+                <input type="text" id="ncontrato" name="ncontrato"  class="input-100" >
+                 <p>Nombre</p>
+                <input type="text" id="nombre" name="nombre" class="input-48" >
+                 <p>Apellido</p>
+                <input type="text" id="apellidos" name="apellidos" class="input-48" >
+                 <p>Telefono</p>
+                <input type="text" id="telefono" name="telefono"  class="input-100" >
+                 <p>Direccion</p>
+                <input type="text" id="direccion" name="direccion" class="input-48" >
+                 <p>Ciudad</p>
+                <input type="text" id="ciudad" name="ciudad" class="input-48" >             
+                <input type="submit" value="Crear" class="btn_crear" onclick="return validar();">
+                
+                <p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a></p>              
+          
+        </form>
+     </div>
+   
+    		
+    </body>
+</html>
